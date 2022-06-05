@@ -1,0 +1,15 @@
+# environment files
+/venv/
+
+# results files for debug
+**/files
+
+# staticfiles 
+/staticfiles
+
+# vscode configurations
+/.vscode/
+.editorconfig
+
+*.pyc
+*.pyo

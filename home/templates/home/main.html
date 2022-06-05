@@ -1,0 +1,10 @@
+{% extends "base_menu.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<ul>
+    <li><p><a href="{% url 'polls:index'  %}">A Polls Application</a></p></li>
+    <li><p><a href="{% url 'hello:session_test'  %}">Test the session</a></p></li>
+    <li><P><a href="{% url 'autos:all' %}">Autos CRUD</a></p></li>
+    <li><P><a href="{% url 'cats:all' %}">Cats CRUD</a></p></li>
+</ul>
+{% endblock %}
